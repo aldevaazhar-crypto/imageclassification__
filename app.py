@@ -12,7 +12,7 @@ FILE_ID = "1a6L-Yy0hb7X5PE4VMEX-N2usdvDzLLzs"
 MODEL_PATH = "model_buah_cnn.h5"
 
 if not os.path.exists(MODEL_PATH):
-    url = f"https://drive.google.com/uc?id={FILE_ID}"
+    url = f"https://drive.google.com/uc?id={1a6L-Yy0hb7X5PE4VMEX-N2usdvDzLLzs}"
     with st.spinner("Mengunduh model..."):
         gdown.download(url, MODEL_PATH, quiet=False)
 
