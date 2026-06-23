@@ -1,5 +1,7 @@
 streamlit
-tensorflow
+tensorflow==2.19.0
+keras==3.10.0
+pillow
 numpy
-Pillow
+h5py
 gdown
